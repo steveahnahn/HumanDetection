@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+.vscode/
+Lib/
+Scripts/
+etc/
+pyvenv.cfg
+share/
+devtokens.py
