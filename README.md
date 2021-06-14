@@ -1,8 +1,8 @@
-# HumanDetection
+# Human Detection for Security Surveillance
 
 Python script that searches through files/directories that contains images and videos and runs YOLOv4 Object Detection Algorithm to detect if the files contain any humans. Saves a snapshot of the positive detections and logs a file of all detections into a new directory.
 
-If a consistent feed of images or videos are fed in through collected surveillance and any humans are positively detected, an option to be notified through SMS using Twilio or Email are available.
+If a consistent feed of images or videos are fed in through collected surveillance and continually runs in automation, any humans that are positively detected may be notified in real-time through option of SMS using Twilio or Email that must be pre-configured.
 
 ## YOLOv4 OpenCV
 'You Only Look Once' ML model is CPU intensive, using the --tiny_yolo flag will give the option to run a smaller and faster model for quick processing at the cost of accuracy.
